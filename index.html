@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Cambodia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/892fc0867b.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Malaysia.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Goverment and Society</a></li>
+                <li><a href="#portfolio">Culture</a></li>
+                <li><a href="#contact">History</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hello Everyone.</p>
+            <h1>Welcome to Malaysia, <br>the country of <span class="text"></span></h1>
+        </div>
+    </div>
+</div>
+<!-----ABOUT----->  
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="malayflag.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Malaysia</h1>
+                <p>Malaysia, country of Southeast Asia, lying just north of the Equator, that is composed of two noncontiguous regions: Peninsular Malaysia (Semenanjung Malaysia), also called West Malaysia (Malaysia Barat), which is on the Malay Peninsula, and East Malaysia (Malaysia Timur), which is on the island of Borneo. The Malaysian capital, Kuala Lumpur, lies in the western part of the peninsula, about 25 miles (40 km) from the coast; the administrative centre, Putrajaya, is located about 16 miles (25 km) south of the capital.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Land</p>
+                        <p class="tab-links" onclick="opentab('experience')">People</p>
+                        <p class="tab-links" onclick="opentab('education')">Economy</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <p>Peninsular Malaysia occupies most of the southern segment of the Malay Peninsula. To the north it is bordered by Thailand, with which it shares a land boundary of some 300 miles (480 km). To the south, at the tip of the peninsula, is the island republic of Singapore, with which Malaysia is connected by a causeway and also by a separate bridge. To the southwest, across the Strait of Malacca, is the island of Sumatra in Indonesia. East Malaysia consists of the country’s two largest states, Sarawak and Sabah, and is separated from Peninsular Malaysia by some 400 miles (640 km) of the South China Sea. These two states occupy roughly the northern fourth of the large island of Borneo and share a land boundary with the Indonesian portion (Kalimantan) of the island to the south. Surrounded by Sarawak is a small coastal enclave containing the sultanate of Brunei. Of the country’s total area, which includes about 265 square miles (690 square km) of inland water, Peninsular Malaysia constitutes about 40 percent and East Malaysia about 60 percent.</p>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <p>The people of Malaysia are unevenly distributed between Peninsular and East Malaysia, with the vast majority living in Peninsular Malaysia. The population shows great ethnic, linguistic, cultural, and religious diversity. Within this diversity, a significant distinction is made for administrative purposes between indigenous peoples (including Malays), collectively called bumiputra, and immigrant populations (primarily Chinese and South Asians), called non-bumiputra.</p>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <p>Malaysia's economy has evolved since 1970, from a primary exporter of raw materials to a strong, diversified, and rapidly growing Southeast Asian economy. The country's economy is fueled by export-oriented manufacturing and foreign investment, particularly from Japan and Taiwan. The government's New Economic Policy (NEP) and New Development Policy (NDP) aim to balance economic growth with wealth redistribution, focusing on Malays and indigenous groups. The NEP encourages private sector involvement in restructuring, including privatizing public-sector activities.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div id="idskill"></div>
+<!------Skills----->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Goverment and Society</h1>
+        <div class="services-list">
+            <div>
+                <h2>Constitutional Framework</h2>
+                <p>Malaysia is a federal constitutional monarchy with a ceremonial Yang di-Pertuan Agong as the paramount ruler. The constitution, drafted in 1957, establishes a bicameral federal legislature with a prime minister and cabinet members. The federal government includes an independent judiciary and a politically neutral civil service. Elections are by simple majority, and bills become federal laws.</p>
+            </div>
+            <div>
+                <h2>Local Goverment</h2>
+                <p>Malaysia has 13 states and 3 federal territories, each with its own constitution, legislative assembly, and executive council. Most peninsular states are led by hereditary rulers, with federal parliamentary elections and state legislatures held every five years.</p>
+            </div>
+            <div>
+                <h2>Justice</h2>
+                <p>Malaysia's constitution outlines the judicial power of the federation, divided into two High Courts in Peninsular Malaysia and East Malaysia, and subordinate courts. Appeals are heard by the Court of Appeal, and a separate Special Court handles cases against paramount rulers.</p>
+            </div>
+            <div>
+                <h2>Political Process</h2>
+                <p>Malaysia has a multiparty political system with free elections and peaceful changes in prime ministers. Ethnic affiliation is primarily based on Malays, with some minorities. The National Front, dominated from the 1970s to 2010, dominates political life, with opposition parties including the Democratic Action Party and the People's Justice Party.</p>
+            </div>
+            <div>
+                <h2>Security of Malaysia</h2>
+                <p>Malaysia's armed forces have grown since 1963, with a five-country agreement between Malaysia, Singapore, New Zealand, Australia, and the UK ensuring defense against external aggression. The military consists of an army, navy, and air force, with the army being the largest unit. The Royal Malaysian Navy focuses on defending the country's coastlines, while the police force combats crime and armed insurrections as a separate paramilitary unit.</p>
+            </div>
+            <div>
+                <h2>Health and Welfare</h2>
+                <p>In the second half of the 20th century, Malaysia's health improved significantly, leading to a decline in death and infant mortality rates and largely freeing the country from tropical diseases. However, malaria remains a problem in rural areas. Health facilities and services vary among states, with towns and cities offering more extensive services. Welfare services are provided by both government and private agencies.</p>
+            </div>
+            <div>
+                <h2>Housing</h2>
+                <p>The multicultural character of the population of Malaysia is visibly reflected in the wide variety of houses, which range from the traditional longhouses and stilt houses of the rural peoples to examples of modern high-rise architecture in the cities. Housing shortages are rare in rural areas, but squatter settlements are common in the larger towns and cities. A governmental housing authority has had success in establishing low-cost housing in urban areas.</p>
+            </div>
+            <div>
+                <h2>Education</h2>
+                <p>The federal government provides free public schooling at primary and secondary levels, with compulsory six years. Most children receive at least some secondary education. The number of students advancing to postsecondary level increased in the late 20th and early 21st centuries. The country offers dozens of tertiary institutions, including universities, teacher-training colleges, and technical or vocational schools. Major state universities were established in Sarawak and Sabah in the mid-1990s.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------Portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Culture</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="orang asli.jpeg">
+                <div class="layer">
+                    <h3>Cultural milieu</h3>
+                    <p>Malaysia is a hub of cultural traditions from Southeast Asia, China, South Asia, the Middle 
+                        East, and the West. Its Malay culture, Orang Asli cultures, and East Malaysian cultures 
+                        are indigenous to the region. Early Chinese traders and Indians were assimilated, while 
+                        the majority were transient. British colonial rule and Western cultural influences have
+                        profoundly impacted Malaysia's communities, with rapid cultural changes in cities.</p>
+                        
+                </div>
+            </div>
+            <div class="work">
+                <img src="Hari raya.jpeg">
+                <div class="layer">
+                    <h3>Daily life and social customs</h3>
+                    <p>Malaysia's cultural life is centered around traditional festivities, including Muslim 
+                       holidays like Hari Raya Puasa and Hari Raya Haji, Buddhist holidays like Wesak Day, Chinese 
+                       New Year celebrations, Hindu festivals like Deepavali and Christmas, and national holidays 
+                       like Hari Kebangsaan. Life events like birth, circumcision, and marriage are celebrated with 
+                       feasts called kenduri. Malaysian cuisines include Chinese, Indian, and Malay, with Chinese 
+                       dishes and Indian dishes developing a Malaysian character. Non-Muslim indigenous peoples eat 
+                       staple foods like rice and tapioca.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="museum.jpeg">
+                <div class="layer">
+                    <h3>Cultural institutions</h3>
+                    <p>Malaysia's history and culture are showcased in museums in Kuala Lumpur and other state 
+                       capitals. These include the National Museum, Perak Museum, Penang Museum, Sabah Museum, 
+                       Sarawak Museum, Islamic Arts Museum, numismatic museum, telecommunications museum, and armed forces museum. Malaysia also has numerous art galleries and performing arts theaters.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--History-->
+<section id="contact" class="history">
+    <div class="malayhistory">
+        <h3>History</h3>
+        <p>Malaysia, a modern concept, has a rich history dating back to prehistoric times in Malaya and Borneo. Early human occupation in the region was dominated by Hinduism and Buddhism, with Islam making its presence in the 10th century. The Portuguese, Dutch, and English colonial powers established sultanates in the region, with the Dutch capturing Malacca in 1641. The Anglo-Dutch and Anglo-Siamese Treaties defined the boundaries of British Malaya and Indonesia, respectively. The Japanese invasion ended British rule in Malaya, and the Malayan Union was established in 1946. The Malayan Communist Party (MCP) took up arms against the British, leading to emergency rule from 1948 to 1960. Malayan independence was achieved in 1957 through diplomatic negotiation. The country's New Economic Policy (NEP) aimed to eradicate poverty and restructure society. Under Prime Minister Mahathir Mohamad, Malaysia experienced rapid economic growth and urbanization, followed by the National Development Policy (NDP) from 1991 to 2000. The COVID-19 pandemic caused political, health, social, and economic crises. Anwar Ibrahim became Malaysia's prime minister in November 2022.</p>
+    </div>
+    
+    <img src="http://lh6.ggpht.com/-VijfrNF0Iyw/UqmemO8sIzI/AAAAAAAAEyY/uq_7n5eYwWI/s1600/oldmap2.jpeg" class="historypic"  alt="">
+    
+</section>
+
+<!-----------Footer----------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div>
+                <div id="aseanlogo">
+                    <img src="aseanlogo.png" class="aseanlogo" alt="">
+                    <img src="ISUFST_LOGO.png" class="aseanlogo" alt="">
+                    <img src="cict.png" class="aseanlogo" alt="">
+                </div>
+                <div class="sociallinks">
+                    <a href="https://isufst.edu.ph" target="_blank"><i class="fa-solid fa-globe"></i> ISUFST.edu.ph/</a>
+                    <a href="https://www.facebook.com/ISCOFOfficialPage" target="_blank"><i class="fa-brands fa-facebook"></i> ISUFST Official FB Page</a>
+                    <a href="https://www.facebook.com/profile.php?id=100079984610344" target="_blank"><i class="fa-brands fa-facebook"></i> CICT Poblacion</a>
+                </div>
+            </div>
+            <div class="slogan">
+                <p>Asean Week Celebration!!</p>
+            </div>
+        </div>
+        <div class="website">
+            <p>Website by Kian Erald Bedua. Build in HTML and CSS. Deployed in GitHub <a href="https://github.com/kianbedua/kianbedua" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxKPPlHe_Qpus3_j0NUIlocqOW9U801aHZ5Es9qA5afarXpz3uAz4yw57Tcfbw3wfTG/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
